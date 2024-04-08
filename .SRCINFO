@@ -1,14 +1,14 @@
 pkgbase = python-distutils-extra
 	pkgdesc = Enhancements to the Python build system
 	pkgver = 2.39
-	pkgrel = 12
+	pkgrel = 13
 	url = https://launchpad.net/python-distutils-extra
 	arch = any
 	license = GPL
-	makedepends = python-setuptools
 	makedepends = intltool
 	depends = intltool
 	depends = python
+	depends = python-setuptools
 	source = https://launchpad.net/python-distutils-extra/trunk/2.39/+download/python-distutils-extra-2.39.tar.gz
 	source = https://launchpad.net/python-distutils-extra/trunk/2.39/+download/python-distutils-extra-2.39.tar.gz.asc
 	validpgpkeys = 3DB46B55EFA59D40E6232148D14EF15DAFE11347
